@@ -22,8 +22,20 @@
             {q:"Cameras are not Useful.", a:false}
         ]
 
-        
+        var correct = 0
+        var incorrect = 0
 
+        // making keys function i hope
+        document.onkeyup = function(event) {
+            var letter = event.key.toLowerCase();
+                if (letter === "t") {
+                true
+                }
+
+                if (letter === "f") {
+                false
+                }
+        }
 
     </script>
 </body>

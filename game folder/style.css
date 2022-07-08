@@ -1,5 +1,4 @@
 p, h1 {
-    font-size: 40px;
     text-align: center;
     font-family: 'Oxygen', sans-serif;
 }
@@ -7,7 +6,8 @@ p, h1 {
 h1 {
     padding: 40px;
     background-color: rgb(49, 133, 201);
-    margin: 0%;
+    margin: 0px 250px 0px 250px;
+    font-size: 60px;
     
 }
 
@@ -16,8 +16,14 @@ p {
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: rgb(119, 189, 255);
+    font-size: 40px;
 }
 
 body {
     background-color: rgb(197, 193, 187);
+}
+
+.extraspace {
+    padding-bottom: 90px;
+    padding-top: 70px;
 }

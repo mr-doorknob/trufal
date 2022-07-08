@@ -7,6 +7,11 @@
     <title>True or False!</title>
 </head>
 <body>
+    <h1>Is This True or False?</h1>
+    <h2 id="question"></h2>
+    <h2 id="previous-answer"></h2>
+        <p id="right-answer"></p>
+        <p id="wrong-answer"></p>
     <script>
 
         var questionsAndAnswers = [ 
@@ -21,21 +26,32 @@
             {q:"Ducks are a Common House Pet.", a:false}, 
             {q:"Cameras are not Useful.", a:false}
         ]
+        var wins = 0
+        var losses = 0
 
-        var correct = 0
-        var incorrect = 0
+        var correct = document.getElementById("right-answer");
+        var incorrect = document.getElementById("wrong-answer");
+
+        for (var i = 0; i < questionsAndAnswers.length; i++) {
+        
+      }
 
         // making keys function i hope
         document.onkeyup = function(event) {
             var letter = event.key.toLowerCase();
                 if (letter === "t") {
-                true
+                true;
+                wins++
                 }
 
                 if (letter === "f") {
                 false
+                losses++
                 }
         }
+        correct.textContent = "correct: " + wins;
+        incorrect.textContent = "incorrect: " + losses;
+        
 
     </script>
 </body>

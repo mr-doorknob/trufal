@@ -1,0 +1,23 @@
+p, h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+    padding: 40px;
+    background-color: rgb(49, 133, 201);
+    margin: 0%;
+    
+}
+
+p {
+    margin: 0px 500px 0px 500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(119, 189, 255);
+}
+
+body {
+    background-color: rgb(197, 193, 187);
+}
